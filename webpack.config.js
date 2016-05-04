@@ -25,7 +25,7 @@ module.exports = {
   plugins: [
     new webpack.ProvidePlugin({
       Promise: 'es6-promise',
-      'node-fetch': 'imports?this=>global!exports?global.fetch!whatwg-fetch',
+      fetch: 'isomorphic-fetch',
     }),
     new webpack.optimize.DedupePlugin(),
     new webpack.optimize.OccurenceOrderPlugin(true),
