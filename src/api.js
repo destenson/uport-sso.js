@@ -1,4 +1,4 @@
-import fetch from 'node-fetch';
+import 'isomorphic-fetch';
 import { makeRequestHeaders, checkResponseStatus, parseJSON } from './utils';
 
 /**
