@@ -76,7 +76,7 @@
     "restify": "^4.0.3",
     "restify-errors": "^4.0.0",
     "rimraf": "^2.5.1",
-    "webpack": "^1.12.13",
+    "webpack": "^1.12.13"
   },
   "browser": {
     "eth-lightwallet": false
